@@ -18,6 +18,8 @@ function Login() {
   return (
     <div className="login">
       <div className="login__container">
+        <h1>Login</h1>
+        <div class="text">Email:</div>
         <input
           type="text"
           className="login__textBox"
@@ -25,6 +27,7 @@ function Login() {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="E-mail Address"
         />
+        <div class="text">Password:</div>
         <input
           type="password"
           className="login__textBox"
@@ -38,8 +41,9 @@ function Login() {
         >
           Login
         </button>
+        <div>Or Log-in with:</div>
         <button className="login__btn login__google" onClick={signInWithGoogle}>
-          Login with Google
+          Google
         </button>
         <div>
           <Link to="/reset">Forgot Password</Link>

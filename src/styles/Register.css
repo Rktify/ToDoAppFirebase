@@ -4,13 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #16161a;
   }
   .register__container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #dcdcdc;
+    background-color: #ff8906;
     padding: 30px;
+    border-radius: 30px;
   }
   .register__textBox {
     padding: 10px;
@@ -30,4 +32,8 @@
   }
   .register div {
     margin-top: 7px;
+  }
+
+  .text {
+    text-align: left;
   }

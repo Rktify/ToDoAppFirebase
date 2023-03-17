@@ -24,6 +24,8 @@ function Register() {
   return (
     <div className="register">
       <div className="register__container">
+        <h1>Register</h1>
+        <div class="text">Name:</div>
         <input
           type="text"
           className="register__textBox"
@@ -31,6 +33,7 @@ function Register() {
           onChange={(e) => setName(e.target.value)}
           placeholder="Full Name"
         />
+        <div class="text">Email:</div>
         <input
           type="text"
           className="register__textBox"
@@ -38,6 +41,7 @@ function Register() {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="E-mail Address"
         />
+        <div class="text">Password:</div>
         <input
           type="password"
           className="register__textBox"
@@ -48,11 +52,12 @@ function Register() {
         <button className="register__btn" onClick={register}>
           Register
         </button>
+        <div>Or Register with: </div>
         <button
           className="register__btn register__google"
           onClick={signInWithGoogle}
         >
-          Register with Google
+          Google
         </button>
         <div>
           Already have an account? <Link to="/">Login</Link> now.
