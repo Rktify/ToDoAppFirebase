@@ -1,5 +1,7 @@
 import "../styles/modal.css";
 
+import React, { Component }  from 'react';
+
 function Modal({ open, modalLable, children, custom_modal, onClose }) {
   const handleClose = (e) => {
     if (e.target.className === "modalContainer") {

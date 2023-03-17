@@ -1,7 +1,8 @@
 import "../styles/title.css";
 import TodoList from "./TodoList";
 import AddTodo from "./AddTodo";
-import { useState , useEffect} from "react";
+import Dashboard from "./Dashboard"
+import React, { useState , useEffect} from "react";
 import {db} from "../firebase"
 import {collection, query, orderBy, onSnapshot} from "firebase/firestore" 
 // import Todo from "./Todo";

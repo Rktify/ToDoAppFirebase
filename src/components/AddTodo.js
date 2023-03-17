@@ -1,5 +1,5 @@
 import Modal from "./Modal"
-import {useState} from 'react'
+import React, {useState} from 'react'
 import '../styles/addTodo.css'
 import {db} from "../firebase"
 import { collection, addDoc, Timestamp } from "firebase/firestore"

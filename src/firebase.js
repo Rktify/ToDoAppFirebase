@@ -80,4 +80,4 @@ const logout = () => {
   signOut(auth);
 };
 
-export {db, auth, signInWithGoogle, logInWithEmailAndPassword, registerWithEmailAndPassword, sendPasswordReset, logout}
+export {db, auth, signInWithGoogle, logInWithEmailAndPassword, registerWithEmailAndPassword, sendPasswordReset, logout, sendPasswordResetEmail, signInWithEmailAndPassword}
